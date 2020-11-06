@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Nike Product Page</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- TOP NAV -->
+	<div class="navbar">
+		<a href="#" class="logo">
+			CuongF
+		</a>
+		<div class="navbar-right menu">
+			<a href="#" class="active">New releases</a>
+			<a href="#">Men</a>
+			<a href="#">Women</a>
+			<a href="#">Kids</a>
+			<a href="#">About</a>
+			<a href="#">Contacts</a>
+		</div>
+		<div class="navbar-right">
+			<a href="#" class="cart">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                  </svg>
+				<span class="badge">2</span>
+			</a>
+		</div>
+	</div>
+	<!-- END TOP NAV -->
+
+
+    <!-- Main Start -->
+    <div id="slider" class="slider">
+        <div class="row">
+            <div class="col-6 full-height">
+                <!-- PRODUCT INFO -->
+				<div class="product-info">
+					<div class="info-wrapper">
+						<div class="product-price left-to-right">
+							<span>$</span>230
+						</div>
+						<div class="product-name left-to-right">
+							<h2>
+								Nike ZoomX Vaporfly
+							</h2>
+						</div>
+						<div class="product-size left-to-right">
+							<h3>SIZE</h3>
+							<div class="size-wrapper">
+								<div>35</div>
+								<div>36</div>
+								<div class="active">37</div>
+								<div>38</div>
+								<div>39</div>
+								<div>40</div>
+							</div>
+						</div>
+						<div class="product-color left-to-right">
+							<h3>COLORS</h3>
+							<div class="color-wrapper">
+								<div class="active">
+									<div class="bg-red"></div>
+								</div>
+								<div class="">
+									<div class="bg-blue"></div>
+								</div>
+								<div class="">
+									<div class="bg-white"></div>
+								</div>
+							</div>
+						</div>
+						<div class="product-description left-to-right">
+							<p>
+								The Nike ZoomX Vaporfly NEXT% clears your path to record-breaking speed with a lighter design and faster feel than before. With more cushioning underfoot and reduced weight up top, the result is unprecedented energy return and comfort
+							</p>
+						</div>
+						<div class="button left-to-right">
+							<button>
+								Add to cart
+							</button>
+						</div>
+					</div>
+				</div>
+				<!-- END PRODUCT INFO -->
+
+            </div>
+            <div class="col-6 full-height img-col">
+                <!-- Product image Start -->
+                <div class="product-img ">
+                    <div class="img-wrapper bounce">
+                        <img src="img/shoe-red.png" alt="" id="shoeImgPng">
+                    </div>
+
+                </div>
+                <!-- Product image End -->
+                <!-- product more images -->
+                <div class="more-images">
+                    <div class="more-image-item">
+                        <img src="img/shoe-red-1.jpg" alt="">
+                    </div>
+                    <div class="more-image-item">
+                        <img src="img/shoe-red-2.jpg" alt="">
+                    </div>
+                    <div class="more-image-item">
+                        <img src="img/shoe-red-3.jpg" alt="">
+                    </div>
+                    <div class="more-image-item">
+                        <img src="img/shoe-red-4.jpg" alt="">
+                    </div>
+                   
+                </div>
+
+                <!-- product more images End-->
+
+
+
+            </div>
+        </div>
+        <!-- SLIDE CONTROL -->
+		<div id="slide-control" class="slide-control">
+			<div class="slide-control-item active">
+				<img src="img/shoe-red.png" alt="placeholder+image">
+			</div>
+			<div class="slide-control-item">
+				<img src="img/shoe-green.png" alt="placeholder+image">
+			</div>
+			<div class="slide-control-item">
+				<img src="img/shoe-black.png" alt="placeholder+image">
+			</div>
+			<div class="slide-control-item">
+				<img src="img/shoe-blue-1.png" alt="placeholder+image">
+			</div>
+		</div>
+		<!-- END SLIDE CONTROL -->
+    </div>
+
+    <!-- Main end -->
+    <!-- MODAL -->
+	<div id="modal" class="modal">
+		<span id="modal-close" class="close">&times;</span>
+        <img id="modal-content" class="modal-content" src="">
+		
+	</div>
+	<!-- END MODAL -->
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
